@@ -8,6 +8,14 @@
 <body>
     <p>テストページ</p>
     <a href="vrmeeting://oauth">TEST Link</a>
+    <script>
+        function launchApp() {
+            document.location = "vrmeeting://oauth";
+        }
+        window.onload = function () {
+            launchApp();
+        }
+    </script>
 </body>
 
 </html>
